@@ -1,0 +1,121 @@
+.title {
+    width: 100%;
+}
+
+.articles {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+article {
+    padding: 20px;
+    margin: 20px;
+    border: #ff5a5f solid 1px;
+    border-radius: 4px;
+    width: 390px;
+}
+
+article h2 {
+    display: inline-block;
+    text-align: center;
+    margin-left: 10%;
+    height: 60px;
+}
+
+.price_by_night {
+    padding: 5px;
+    position: relative;
+    float: right;
+    line-height: 200%;
+    text-align: center;
+    color: #ff5a5f;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
+    border: 4px solid #ff5a5f;
+    border-radius: 50%;
+}
+
+.price_by_night h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    margin: 0;
+    transform: translate(-50%, -50%);
+}
+
+
+article h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.information {
+    padding: 5px;
+    position: relative;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.information > div > div {
+    margin: 0;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    bottom: 0;
+}
+
+.information div {
+    position: relative;
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.max_guest {
+    background-image: url(../images/icon_group.png);
+    height: 100%;
+}
+
+.number_rooms {
+    background-image: url(../images/icon_bed.png);
+    height: 100%;
+}
+
+.number_bathrooms {
+    background-image: url(../images/icon_bath.png);
+    height: 100%;
+}
+
+.information ul {
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white;
+    border: none;
+    list-style: none;
+    margin-left: auto;
+    width: 100%;
+}
+
+.user {
+    width: 100%;
+    line-height: 30px;
+}
+
+.information li {
+    text-align: left;
+}
+
+h1 {
+    text-align: top;
+    text-align: left;
+}
+
+footer {
+    position: relative;
+}

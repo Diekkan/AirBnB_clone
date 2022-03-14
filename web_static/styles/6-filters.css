@@ -1,0 +1,77 @@
+.filters {
+    background-color: white;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    height: 70px;
+    width: 100%;
+}
+
+button {
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border: 0;
+    border-radius: 4px;
+    /* Makes position to be the*/
+}
+
+button:hover {
+    opacity: 90%;
+}
+
+.locations, .amenities {
+    height: 100%;
+    width: 25%;
+    text-align: left;
+    margin-left: 5%;
+    line-height: 60%;
+    float: left;
+}
+
+.locations:hover .popover {
+    display: inline-block;
+}
+
+.amenities:hover .popover {
+    display: inline-block;
+}
+
+.popover {
+    display: none;
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #fafafa;
+    border: 1px solid #DDDDDD;
+    list-style: none;
+    margin-left: -50px;
+    width: 104%;
+}
+
+li {
+    text-align: left;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.locations {
+    border-right: 1px solid #DDDDDD;
+}

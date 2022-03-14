@@ -1,0 +1,29 @@
+.title {
+    width: 100%;
+}
+
+.articles {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+article {
+    border-radius: 4px;
+    float: left;
+    padding: 20px;
+    margin: 20px;
+    border: #ff5a5f solid 1px;
+    border-radius: 4px;
+    width: 390px;
+}
+
+article h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h1 {
+    text-align: top;
+    text-align: left;
+}
